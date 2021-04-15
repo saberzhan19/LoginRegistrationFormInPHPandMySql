@@ -12,40 +12,38 @@
     
     <div class="container">
         <div class="login-box">
-        <div class="row">
-            <div class="col-md-6 login-left">
-                <h2>Login here</h2>
-                <form method="post" action="validation.php">
-                    <div class="form-group">
-                        <label>Username</label>
-                        <input type="text" name="username" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label>Password</label>
-                        <input type="password" name="password" class="form-control" required>                        
-                    </div>
-                    <button class="btn btn-primary" type="submit"> Login </button>
-                </form>
-            </div>
+            <div class="row">
+                <div class="col-md-6 login-left">
+                    <h2>Login here</h2>
+                    <form method="post" action="validation.php">
+                        <div class="form-group">
+                            <label>Username</label>
+                            <input type="text" name="username" class="form-control"     required>
+                        </div>
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input type="password" name="password"  class="form-control" required>                        
+                        </div>
+                        <button class="btn btn-primary" type="submit"> Login </ button>
+                    </form>
+                </div>
 
-            <div class="col-md-6 login-right">
-                <h2>Register here</h2>
-                <form method="post" action="validation.php">
-                    <div class="form-group">
-                        <label>Username</label>
-                        <input type="text" name="username" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label>Password</label>
-                        <input type="password" name="password" class="form-control" required>                        
-                    </div>
-                    <button class="btn btn-primary" type="submit"> Register </button>
-                </form>
+                <div class="col-md-6 login-right">
+                    <h2>Register here</h2>
+                    <form method="post" action="validation.php">
+                        <div class="form-group">
+                            <label>Username</label>
+                            <input type="text" name="username" class="form-control"     required>
+                        </div>
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input type="password" name="password"  class="form-control" required>                        
+                        </div>
+                        <button class="btn btn-primary" type="submit"> Register </button>
+                    </form>
+                </div>            
             </div>
-            
         </div>
-    </div>
-
     </div>
 
 </body>
