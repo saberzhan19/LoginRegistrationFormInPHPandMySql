@@ -40,9 +40,9 @@
                 </form>
 
             </div>            
-            <a href="http://indussite/LoginRegistrationFormInPHPandMySql1/">Back to Main</a>
 
         </div>
+            <a href="http://indussite/LoginRegistrationFormInPHPandMySql1/">Back to Main</a>
 
     </div>
 
