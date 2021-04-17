@@ -9,8 +9,8 @@ if(!isset($_SESSION['username'])){
 <html lang="en">
 <head>
     <title>Home page</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 </head>
 <body>
@@ -18,6 +18,7 @@ if(!isset($_SESSION['username'])){
     <div class="container">
         
     <a class="float-right" href="logout.php"> LOGOUT </a>
+
     <h1> Welcome <?php echo $_SESSION['username'];?> </h1>
  
     </div>
