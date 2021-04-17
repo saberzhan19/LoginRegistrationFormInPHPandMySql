@@ -24,12 +24,12 @@
                         <label>Password</label>
                         <input type="password" name="password"  class="form-control" required>                        
                         </div>
-                        <button class="btn btn-primary" type="submit"> Login </ button>
+                        <button class="btn btn-primary" type="submit"> Login </button>
             </form>
         </div>
 
             <div class="col-md-6 login-right">
-            <h2>Register here</h2>
+            <h2> Register here </h2>
             <form action="registration.php" method="post">
                 <div class="form-group">
                     <label>Username</label>
@@ -39,9 +39,11 @@
                     <label>Password</label>
                     <input type="password" name="password"  class="form-control" required>                        
                     </div>
-                    <button class="btn btn-primary" type="submit"> Register </button>
+                    <button type="submit" class="btn btn-primary"> Register </button>
                 </form>
+
             </div>            
+            <a href="http://indussite/LoginRegistrationFormInPHPandMySql1/">Back to Main</a>
 
         </div>
 

@@ -1,9 +1,9 @@
 <?php
 
 session_start();
-// header('location:login.php');
+header('location:login.php');//направляет страницу, после действия 
 
-$con = mysqli_connect('localhost', 'root', 'root', 'indusman');
+$con = mysqli_connect('localhost', 'root', 'root');
 
 
 mysqli_select_db($con, 'indusman');
@@ -18,9 +18,9 @@ $result = mysqli_query($con, $q);
 $num = mysqli_num_rows($result);
 
 if($num == 1){
-    echo" Уже выбрано";
+    echo" Вы уже зарегистрированы";
 }else{
-    $reg = " INSERT into test (name, password) VALUES ('$name','$pass')";
+    $reg =" INSERT into test(name, password) VALUES ('$name','$pass')";
     mysqli_query($con, $reg);
     echo "Успешно зарегистрировались!";
 }
